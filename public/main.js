@@ -22,7 +22,7 @@ planets.forEach(function iterate(planet){
     let option= document.createElement("option");
     let select= document.getElementById("planets");
     option.value=planet[0];
-    option.textContent=planet[0];
+    option.innerHTML=planet[0];
     select.appendChild(option);
 });
 
